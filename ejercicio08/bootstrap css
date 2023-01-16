@@ -1,0 +1,6 @@
+.relleno{
+    background-color: red;
+    border: 1px solid white;
+    color: white;
+    padding: auto;
+}
