@@ -40,7 +40,7 @@
       <form action="#">
         <div class="mb-3">
           <label for="exampleFormControlname" class="form-label">Name</label>
-          <input type="text" class="form-control" id="exampleFormControlname" placeholder="Nombre">
+          <input type="text" class="form-control" style="width: 35rem;" id="exampleFormControlname" placeholder="Nombre">
       <div class="form-text">Introduce tu nombre de pila</div>    
               </div>
           <div class="mb-3">
@@ -49,7 +49,7 @@
               </div>
           <div class="mb-3">
           <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          <textarea class="form-control"  style="width: 35rem;" id="exampleFormControlTextarea1" rows="3"></textarea>
               </div>
       </form>
     </div> 
