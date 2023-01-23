@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>Elementos de interés Bootstrap</title>
+</head>
+<body>
+    <div id="primeraseccion" class="container my-4"> 
+        <div  class="bg-light p-5 rounded-3">
+          <div class="container-fluid py-5">
+            <h1 class="display-5 fw-bold">Custom jumbotron</h1>
+            <p class="col-md-8 fs-4">Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+              Launch static backdrop modal
+            </button>
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    Esto es el texto del body
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Understood</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div id="segundaseccion" class="container my-4">
+      <form action="#">
+        <div class="mb-3">
+          <label for="exampleFormControlname" class="form-label">Name</label>
+          <input type="text" class="form-control" id="exampleFormControlname" placeholder="Nombre">
+      <div class="form-text">Introduce tu nombre de pila</div>    
+              </div>
+          <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Nº teléfono</label>
+          <input type="number" class="form-control" style="width: 15rem;" id="exampleFormControlInput1" placeholder="número fijo o móvil">
+              </div>
+          <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+      </form>
+    </div> 
+    <div id="terceraseccion" class="card container" style="width: 25rem;">
+        <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/ComputerProgrammer.jpg/640px-ComputerProgrammer.jpg" alt="programando">
+        <div class="card-header"><h1 class="display-6">Desarrollador full stack</h1></div>
+        <div class="card-body">
+            <h6 class="card-title">Carlos Troncoso Meis</h6>
+           <p class="card-text"> Busco colaborar en proyectos para seguir aprendiendo y mejorando mis habilidades como desarrollador. Actualmente haciendo varios cursos en plataformas online y bootcamps. Contáctame por <strong> vía email</strong> para cualquier consulta.</p>
+        </div>
+        <div class="card-footer">
+        <span><strong> email:</strong></span> carlosmeis@hotmail.com
+         </div>
+    </div>  
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+</html>
